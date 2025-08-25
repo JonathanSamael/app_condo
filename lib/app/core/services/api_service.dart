@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class ApiService {
   
-  static const String _baseUrl = 'https://wa-sud-adcondo-dev.azurewebsites.net/api';
+  static const String _baseUrl = '';
 
   final http.Client _client;
 
