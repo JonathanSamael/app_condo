@@ -1,0 +1,64 @@
+name: adcondo_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie: ^3.2.0
+  google_fonts: ^6.2.1
+  carousel_slider: ^5.1.1
+  intl: ^0.20.2
+  flutter_riverpod: ^2.6.1
+  flutter_credit_card: ^4.1.0
+  table_calendar: ^3.2.0
+  http: ^1.4.0
+  geolocator: ^14.0.2
+  permission_handler: ^12.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/AdCondo_logo_medium.png
+    - assets/apto.png
+    - assets/barcode.png
+    - assets/calendar.png
+    - assets/camera.png
+    - assets/cond.png
+    - assets/creditcard.png
+    - assets/doc.png
+    - assets/eletric.png
+    - assets/fundo-bola.png
+    - assets/fundo-predio.png
+    - assets/gas.png
+    - assets/gif_splash_screen.gif
+    - assets/icon-consumo.png
+    - assets/icon-facial.png
+    - assets/loc.png
+    - assets/logo_black.png
+    - assets/logo_white.png
+    - assets/more.png
+    - assets/package.png
+    - assets/payment.png
+    - assets/people.png
+    - assets/pix.png
+    - assets/pointer.png
+    - assets/predio-branco.png
+    - assets/predio-centralizado.png
+    - assets/products.png
+    - assets/reforma.png
+    - assets/splash_screen_without.gif
+    - assets/vote.png
+    - assets/voting.png
+    - assets/water.png
+    - assets/splash_screen.lottie.json
