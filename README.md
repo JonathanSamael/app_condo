@@ -1,20 +1,65 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# 🏢 App de Gerenciamento de Condomínio
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+Aplicativo desenvolvido para facilitar a gestão e comunicação entre moradores e administração do condomínio.  
+Com ele, os moradores têm acesso rápido a documentos, pagamentos, votações, entregas e muito mais, tudo em um só lugar.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+---
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## 📱 Funcionalidades Principais
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+### 👤 Perfil do Morador
+- Exibição do nome e unidade do morador.
+- Alternância entre diferentes condomínios (caso o usuário possua mais de um).
+
+### 📂 Documentos
+- Acesso rápido a comunicados e arquivos oficiais do condomínio.
+
+### 💲 Pagamentos
+- Visualização de boletos e histórico de pagamentos.
+- Integração com métodos de pagamento online.
+
+### 🗳️ Votações
+- Participação em assembleias virtuais e enquetes diretamente pelo app.
+
+### 📍 Rastreamento Pessoal
+- Funcionalidade para maior segurança e monitoramento de acessos.
+
+### 📦 Entregas
+- Consulta de encomendas recebidas na portaria.
+- Notificação em tempo real quando novas entregas chegarem.
+
+### 📅 Minhas Reservas
+- Gestão de reservas de áreas comuns (salão de festas, churrasqueira, academia, etc).
+- Visualização de horários disponíveis.
+
+### 🏘️ Vizinhança
+- Conexão entre moradores, com possibilidade de interações comunitárias.
+
+### ➕ Ver Mais
+- Acesso a outros serviços complementares do condomínio.
+
+### 🛒 Ofertas
+- Integração com mini-mercados internos ou parceiros (ex: market4u).
+- Visualização de promoções e compras rápidas.
+
+---
+
+## 🖼️ Interface
+
+- EM BREVE -
+
+*Imagem ilustrativa da tela inicial do app.*
+
+---
+
+## 🚀 Tecnologias Utilizadas
+- **Frontend:** Flutter/Dart  
+- **Design:** UI/UX com Figma  
+
+---
+
+## ⚙️ Instalação e Execução
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-repo/condominio-app.git
