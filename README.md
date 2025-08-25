@@ -62,4 +62,4 @@ Com ele, os moradores têm acesso rápido a documentos, pagamentos, votações, 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-repo/condominio-app.git
+   git clone https://github.com/JonathanSamael/app_condo.git
