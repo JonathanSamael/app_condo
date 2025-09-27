@@ -1,4 +1,4 @@
-package com.example.adcondo_app
+package com.example.app_condo
 
 import io.flutter.embedding.android.FlutterActivity
 

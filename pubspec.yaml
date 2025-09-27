@@ -1,6 +1,6 @@
-name: adcondo_app
+name: app_condo
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
@@ -29,7 +29,8 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/AdCondo_logo_medium.png
+    - assets/app-condo-dark.png
+    - assets/app-condo-light.png
     - assets/apto.png
     - assets/barcode.png
     - assets/calendar.png
@@ -42,7 +43,6 @@ flutter:
     - assets/fundo-predio.png
     - assets/gas.png
     - assets/gif_splash_screen.gif
-    - assets/icon-consumo.png
     - assets/icon-facial.png
     - assets/loc.png
     - assets/logo_black.png
@@ -52,12 +52,11 @@ flutter:
     - assets/payment.png
     - assets/people.png
     - assets/pix.png
-    - assets/pointer.png
     - assets/predio-branco.png
     - assets/predio-centralizado.png
-    - assets/products.png
     - assets/reforma.png
     - assets/splash_screen_without.gif
+    - assets/target.png
     - assets/vote.png
     - assets/voting.png
     - assets/water.png

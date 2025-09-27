@@ -1,6 +1,6 @@
-import 'package:adcondo_app/features/payments/model/payment_model.dart';
-import 'package:adcondo_app/app/utils/app_colors.dart';
-import 'package:adcondo_app/app/utils/show_name_payment_method.dart';
+import 'package:app_condo/features/payments/model/payment_model.dart';
+import 'package:app_condo/app/utils/app_colors.dart';
+import 'package:app_condo/app/utils/show_name_payment_method.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -26,9 +26,7 @@ class PaymentMethodsCardComponent extends StatelessWidget {
         color: AppColors.textColorWhite,
         borderRadius: BorderRadius.circular(16),
         border: Border.all(
-          color: isSelected
-              ? AppColors.primaryColor
-              : Colors.transparent,
+          color: isSelected ? AppColors.primaryColor : Colors.transparent,
           width: isSelected ? 2.0 : 0.0,
         ),
         boxShadow: [

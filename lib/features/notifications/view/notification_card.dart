@@ -1,4 +1,4 @@
-import 'package:adcondo_app/features/notifications/model/notification_model.dart';
+import 'package:app_condo/features/notifications/model/notification_model.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';

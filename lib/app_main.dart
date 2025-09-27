@@ -1,4 +1,4 @@
-import 'package:adcondo_app/features/user/view/login.dart';
+import 'package:app_condo/features/user/view/login.dart';
 import 'package:flutter/material.dart';
 
 class MainApp extends StatelessWidget {

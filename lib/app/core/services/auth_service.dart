@@ -1,6 +1,6 @@
-import 'package:adcondo_app/app/core/models/user_login_model.dart';
-import 'package:adcondo_app/app/core/services/api_service.dart';
-import 'package:adcondo_app/app/core/services/providers.dart';
+import 'package:app_condo/app/core/models/user_login_model.dart';
+import 'package:app_condo/app/core/services/api_service.dart';
+import 'package:app_condo/app/core/services/providers.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final authServiceProvider = Provider<AuthService>((ref) {

@@ -1,4 +1,4 @@
-import 'package:adcondo_app/app/utils/app_colors.dart';
+import 'package:app_condo/app/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -18,7 +18,7 @@ class PrimaryButtonComponent extends StatelessWidget {
     return ElevatedButton(
       onPressed: onPressed,
       style: ElevatedButton.styleFrom(
-        backgroundColor: AppColors.primaryColor,
+        backgroundColor: AppColors.accentColor,
         minimumSize: Size(width, 45),
         maximumSize: Size(width + 20, 45),
         padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 12),
@@ -91,10 +91,9 @@ class TextButtonComponent extends StatelessWidget {
         onPressed();
       },
       style: TextButton.styleFrom(
-        padding: EdgeInsets.zero, 
+        padding: EdgeInsets.zero,
         minimumSize: Size.zero,
-        tapTargetSize: MaterialTapTargetSize
-            .shrinkWrap,
+        tapTargetSize: MaterialTapTargetSize.shrinkWrap,
       ),
       child: Text(
         text,

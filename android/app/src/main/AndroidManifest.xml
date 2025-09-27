@@ -3,7 +3,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
     <application
-        android:label="adcondo_app"
+        android:label="app_condo"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

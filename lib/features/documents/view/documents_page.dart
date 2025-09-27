@@ -1,7 +1,7 @@
-import 'package:adcondo_app/app/components/app_bar_component.dart';
-import 'package:adcondo_app/features/documents/view/document_card_component.dart';
-import 'package:adcondo_app/features/documents/model/document_model.dart';
-import 'package:adcondo_app/app/utils/app_colors.dart';
+import 'package:app_condo/app/components/app_bar_component.dart';
+import 'package:app_condo/features/documents/view/document_card_component.dart';
+import 'package:app_condo/features/documents/model/document_model.dart';
+import 'package:app_condo/app/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
