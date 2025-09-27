@@ -1,9 +1,9 @@
-import 'package:adcondo_app/app/core/services/api_service.dart';
-import 'package:adcondo_app/app/core/services/providers.dart';
-import 'package:adcondo_app/app/core/services/user_service.dart';
-import 'package:adcondo_app/app/utils/app_colors.dart';
-import 'package:adcondo_app/features/user/view/change_password.dart';
-import 'package:adcondo_app/app/components/buttons.dart';
+import 'package:app_condo/app/core/services/api_service.dart';
+import 'package:app_condo/app/core/services/providers.dart';
+import 'package:app_condo/app/core/services/user_service.dart';
+import 'package:app_condo/app/utils/app_colors.dart';
+import 'package:app_condo/features/user/view/change_password.dart';
+import 'package:app_condo/app/components/buttons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -97,7 +97,7 @@ class _PreCadPersonState extends ConsumerState<PreCadPerson> {
               child: Padding(
                 padding: const EdgeInsets.only(left: 0, bottom: 0),
                 child: Image.asset(
-                  "assets/products.png",
+                  "assets/predio-centralizado.png",
                   width: 250,
                   height: 300,
                   fit: BoxFit.contain,

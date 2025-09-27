@@ -1,8 +1,8 @@
-import 'package:adcondo_app/app/utils/app_colors.dart';
-import 'package:adcondo_app/features/home_page.dart';
-import 'package:adcondo_app/features/notices/view/notices_page.dart';
-import 'package:adcondo_app/features/notifications/view/notification_view.dart';
-import 'package:adcondo_app/features/voting/view/list_voting_page.dart';
+import 'package:app_condo/app/utils/app_colors.dart';
+import 'package:app_condo/features/home_page.dart';
+import 'package:app_condo/features/notices/view/notices_page.dart';
+import 'package:app_condo/features/notifications/view/notification_view.dart';
+import 'package:app_condo/features/voting/view/list_voting_page.dart';
 import 'package:flutter/material.dart';
 
 class NavBarComponent extends StatefulWidget {

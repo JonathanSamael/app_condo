@@ -1,4 +1,4 @@
-import 'package:adcondo_app/app/utils/app_colors.dart';
+import 'package:app_condo/app/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class CustomBackground extends StatelessWidget {

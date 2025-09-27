@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:adcondo_app/app/utils/enums.dart';
+import 'package:app_condo/app/utils/enums.dart';
 
 class ContatoModel {
   final TipoContato tipo;

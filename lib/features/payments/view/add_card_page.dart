@@ -1,7 +1,7 @@
-import 'package:adcondo_app/app/components/buttons.dart';
-import 'package:adcondo_app/app/components/inputs.dart';
-import 'package:adcondo_app/app/utils/app_colors.dart';
-import 'package:adcondo_app/app/utils/validators.dart';
+import 'package:app_condo/app/components/buttons.dart';
+import 'package:app_condo/app/components/inputs.dart';
+import 'package:app_condo/app/utils/app_colors.dart';
+import 'package:app_condo/app/utils/validators.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_credit_card/flutter_credit_card.dart';
 import 'package:google_fonts/google_fonts.dart';

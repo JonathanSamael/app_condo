@@ -1,12 +1,12 @@
 import 'dart:developer';
 
-import 'package:adcondo_app/app/components/custom_background.dart';
-import 'package:adcondo_app/app/core/services/providers.dart';
-import 'package:adcondo_app/app/utils/enums.dart';
-import 'package:adcondo_app/app/utils/validators.dart';
-import 'package:adcondo_app/features/user/view/cad_address_user.dart';
-import 'package:adcondo_app/app/components/buttons.dart';
-import 'package:adcondo_app/app/components/inputs.dart';
+import 'package:app_condo/app/components/custom_background.dart';
+import 'package:app_condo/app/core/services/providers.dart';
+import 'package:app_condo/app/utils/enums.dart';
+import 'package:app_condo/app/utils/validators.dart';
+import 'package:app_condo/features/user/view/cad_address_user.dart';
+import 'package:app_condo/app/components/buttons.dart';
+import 'package:app_condo/app/components/inputs.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';

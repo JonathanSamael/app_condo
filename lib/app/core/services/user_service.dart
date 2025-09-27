@@ -1,7 +1,7 @@
 import 'dart:convert';
-import 'package:adcondo_app/app/core/services/api_service.dart';
-import 'package:adcondo_app/app/core/services/providers.dart';
-import 'package:adcondo_app/features/user/model/user_model.dart';
+import 'package:app_condo/app/core/services/api_service.dart';
+import 'package:app_condo/app/core/services/providers.dart';
+import 'package:app_condo/features/user/model/user_model.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final userServiceProvider = Provider<UserService>((ref) {
@@ -29,7 +29,8 @@ class UserService {
   }
 
   Future<UserModel> getUser(int id) async {
-    final response = await _apiService.get('/Pessoas/$id', authToken: _authToken);
+    final response =
+        await _apiService.get('/Pessoas/$id', authToken: _authToken);
 
     if (response.statusCode == 200) {
       final Map<String, dynamic> data = jsonDecode(response.body);

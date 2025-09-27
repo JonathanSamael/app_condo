@@ -1,6 +1,6 @@
-import 'package:adcondo_app/app/core/models/user_login_model.dart';
-import 'package:adcondo_app/app/core/services/api_service.dart';
-import 'package:adcondo_app/features/user/model/user_model.dart';
+import 'package:app_condo/app/core/models/user_login_model.dart';
+import 'package:app_condo/app/core/services/api_service.dart';
+import 'package:app_condo/features/user/model/user_model.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final apiServiceProvider = Provider<ApiService>((ref) {

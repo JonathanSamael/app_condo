@@ -1,4 +1,4 @@
-package com.example.adcondo_app
+package com.example.app_condo
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter

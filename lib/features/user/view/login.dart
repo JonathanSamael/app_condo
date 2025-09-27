@@ -1,16 +1,18 @@
 import 'dart:developer';
 
-import 'package:adcondo_app/app/components/navigator_bar.dart';
-import 'package:adcondo_app/app/components/snack_bar_component.dart';
-import 'package:adcondo_app/app/core/services/auth_service.dart';
-import 'package:adcondo_app/app/core/services/providers.dart';
-import 'package:adcondo_app/app/core/services/user_service.dart';
-import 'package:adcondo_app/app/utils/app_colors.dart';
-import 'package:adcondo_app/app/utils/validators.dart';
-import 'package:adcondo_app/features/user/view/cad_user.dart';
-import 'package:adcondo_app/app/components/buttons.dart';
-import 'package:adcondo_app/app/components/inputs.dart';
-import 'package:adcondo_app/features/user/view/pre_cad_person.dart';
+import 'package:app_condo/app/components/navigator_bar.dart';
+import 'package:app_condo/app/components/snack_bar_component.dart';
+import 'package:app_condo/app/core/services/auth_service.dart';
+import 'package:app_condo/app/core/services/providers.dart';
+import 'package:app_condo/app/core/services/user_service.dart';
+import 'package:app_condo/app/utils/app_colors.dart';
+import 'package:app_condo/app/utils/enums.dart';
+import 'package:app_condo/app/utils/validators.dart';
+import 'package:app_condo/features/user/model/user_model.dart';
+import 'package:app_condo/features/user/view/cad_user.dart';
+import 'package:app_condo/app/components/buttons.dart';
+import 'package:app_condo/app/components/inputs.dart';
+import 'package:app_condo/features/user/view/pre_cad_person.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -49,8 +51,9 @@ class _LoginPageState extends ConsumerState<LoginPage> {
               ),
               Image.asset(
                 'assets/logo_white.png',
-                fit: BoxFit.contain,
-                width: 230,
+                fit: BoxFit.none,
+                width: MediaQuery.of(context).size.width,
+                height: 80,
               ),
               const SizedBox(
                 height: 80,
@@ -70,8 +73,8 @@ class _LoginPageState extends ConsumerState<LoginPage> {
                       Align(
                         alignment: AlignmentDirectional.center,
                         child: Image.asset(
-                          'assets/AdCondo_logo_medium.png',
-                          width: 160,
+                          'assets/app-condo-dark.png',
+                          width: 185,
                           height: 100,
                           fit: BoxFit.cover,
                         ),

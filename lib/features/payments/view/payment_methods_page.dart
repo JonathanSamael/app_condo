@@ -1,11 +1,11 @@
-import 'package:adcondo_app/app/components/app_bar_component.dart';
-import 'package:adcondo_app/app/components/buttons.dart';
-import 'package:adcondo_app/app/components/snack_bar_component.dart';
-import 'package:adcondo_app/features/payments/model/expense_model.dart';
-import 'package:adcondo_app/features/payments/model/payment_model.dart';
-import 'package:adcondo_app/app/utils/app_colors.dart';
-import 'package:adcondo_app/features/payments/view/payment_summary_page.dart';
-import 'package:adcondo_app/features/payments/view/payment_methods_card_component.dart';
+import 'package:app_condo/app/components/app_bar_component.dart';
+import 'package:app_condo/app/components/buttons.dart';
+import 'package:app_condo/app/components/snack_bar_component.dart';
+import 'package:app_condo/features/payments/model/expense_model.dart';
+import 'package:app_condo/features/payments/model/payment_model.dart';
+import 'package:app_condo/app/utils/app_colors.dart';
+import 'package:app_condo/features/payments/view/payment_summary_page.dart';
+import 'package:app_condo/features/payments/view/payment_methods_card_component.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

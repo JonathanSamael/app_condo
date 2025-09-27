@@ -1,4 +1,4 @@
-import 'package:adcondo_app/app/components/item_grid.dart';
+import 'package:app_condo/app/components/item_grid.dart';
 import 'package:flutter/material.dart';
 
 class FeatureGrid extends StatefulWidget {
